@@ -1,0 +1,38 @@
+@media only screen and (max-width: 800px) {
+}
+html {
+    box-sizing: border-box;
+}
+*,*::after, *::before {
+    box-sizing: inherit;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+body {
+    font-family: sans-serif;
+    background: radial-gradient(circle, #fff, #bbb);
+    text-align: center;
+}
+.identity__responsive {
+    display: none;
+}
+.hab__responsive {
+    display: none;
+}
+.proyects__responsive {
+    display: none;
+}
+.experience__responsive {
+    display: none;
+}
+.education__responsive {
+    display: none;
+}
+.footer {
+    display: bottom;
+}
